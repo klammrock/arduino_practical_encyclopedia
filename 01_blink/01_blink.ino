@@ -9,7 +9,6 @@ void setup() {
   pinMode(LED, OUTPUT);
 }
 
-
 void loop() {
   digitalWrite(LED, HIGH);
   Serial.println("High");
